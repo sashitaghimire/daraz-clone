@@ -9,10 +9,11 @@
 }
 .navbar>button:hover{
     color:#F57224;
-    outline: none;
-
+}
+.navbar__category >button{
+    margin-left: -100px;
 }
 .navbar__category >button:hover{
     color: #F57224;
-    outline: none;
+    
 }

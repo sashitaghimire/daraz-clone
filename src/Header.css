@@ -6,6 +6,7 @@
     position: sticky;
     justify-content: space-between;
     background-color: white;
+    z-index: 100;
 }
 
 .header >img{
@@ -58,6 +59,7 @@
 .header__right >p{
     font-weight: 500;
     padding-bottom: 8px;
+    color: #F57224;
    
 }
 .headerRight__img >img{
