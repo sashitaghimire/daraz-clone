@@ -15,9 +15,7 @@
 
 .banner__category{
     display: flex;
-    flex: 0.2;
-    
-    
+    flex: 0.2;  
 }
 .MuiListItemText-root{
     padding-left: 40px;

@@ -1,0 +1,33 @@
+.products{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    height: 310px;
+    width: 188px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.products >img{
+    height: 200px;   
+}
+.products__info{
+    padding: 12px;
+    
+    align-items: center;
+}
+
+.products:hover{
+   box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+}
+
+.products__{
+    color: #F57224;
+    padding: 3px;
+}
+.products__rating{
+    display: flex;
+}
+.rating__icon{
+    color: #FACA51;
+}

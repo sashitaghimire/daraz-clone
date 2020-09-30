@@ -4,6 +4,10 @@ import Header from './Header';
 import Navbar from './Navbar';
 import Banner from './Banner';
 import Services from './Services';
+import FlashSale from './FlashSale';
+import PersonalizedProducts from './PersonalizedProducts';
+import Footer from './Footer';
+import Login from './Login';
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
       <Navbar />
       <Banner />
       <Services />
+      <FlashSale />
+      <PersonalizedProducts />
+      <Footer/>
+      <Login/>
 
 
     </div>

@@ -21,10 +21,8 @@ function Services() {
                 <Button>
                     <img className="services__img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1EepsWlr0gK0jSZFnXXbRRXXa.jpg" alt=""/> 
                     Daraz Quizzes</Button>
-
-        
         </div>
     )
 }
 
-export default Services
+export default Services;
