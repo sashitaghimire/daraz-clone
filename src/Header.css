@@ -39,6 +39,10 @@
     display: flex;
     margin-right: 20px;
 }
+.header__center>p{
+    color: #F57224;
+    
+}
 .header__center >button{
     margin-right: 20px;
     color: #F57224;

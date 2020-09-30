@@ -8,19 +8,31 @@ import FlashSale from './FlashSale';
 import PersonalizedProducts from './PersonalizedProducts';
 import Footer from './Footer';
 import Login from './Login';
+import { useStateValue } from './StateProvider';
+
 
 function App() {
+  const [{user},dispatch] = useStateValue();
   return (
     <div className="App">
-      <Header />
+    {!user ?(
+        <Login />
+      ):(
+        <>
+    <Header />
+
+    <div className="app_body">
+      
       <Navbar />
       <Banner />
       <Services />
       <FlashSale />
       <PersonalizedProducts />
       <Footer/>
-      <Login/>
-
+    
+    </div>
+    </>
+      )}
 
     </div>
   );

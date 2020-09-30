@@ -1,0 +1,36 @@
+.login{
+  background-color: white;
+    display: flex;
+    height: 25vw;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+    align-content: center;
+    align-items: center;
+    margin-left:25rem;
+    margin-top:8rem;
+
+}
+
+.login >h4{
+  color:orange;
+  font-size: 1rem;
+  padding:30px;
+  align-content: center;
+  margin-left: 30px;
+}
+
+.login >button{
+  background-color:#F44336;
+  color: white;
+}
+.login>button:hover{
+ color:#F44336;
+}
+
+.login__btnGoogle{
+  height: 20px;
+  padding-right: 10px;
+}

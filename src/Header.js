@@ -3,9 +3,13 @@ import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import {IconButton,Button} from "@material-ui/core";
+import { useStateValue } from './StateProvider';
+import userEvent from '@testing-library/user-event';
 
 
 function Header() {
+   
+    const [{user},dispatch] = useStateValue();
     return (
         <div className="header">
             
@@ -17,8 +21,7 @@ function Header() {
             </div>
 
             <div className="header__center">
-                <Button variant="outlined">Login</Button>
-                <Button variant="outlined">Sign up</Button>
+                <p>Hello! {user.displayName}</p>
                 </div>
                 <div className="header__right">
                 <p>Download App</p>

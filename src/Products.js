@@ -1,6 +1,5 @@
 import React from 'react';
 import './Products.css';
-import {Button} from "@material-ui/core";
 import StarRateIcon from '@material-ui/icons/StarRate';
 
 function Products({image,description, price,rating}) {
