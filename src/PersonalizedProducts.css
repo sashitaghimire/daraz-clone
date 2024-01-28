@@ -1,0 +1,25 @@
+.personalizedProducts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.personalizedProducts>h4{
+   margin-top: 20px;
+  margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+.personalizedProducts__row{
+    display: flex;
+    flex-direction: row;  
+}
+.personalizedProducts >button{
+    color: #44A0BA;
+    margin: 20px 50px 20px 30vw;
+    align-content: center;
+    font-size: 1rem;
+    padding:5px;
+    width: 397px;
+    border:1px solid #1a9cb8 !important;
+    justify-content: flex-end;
+}

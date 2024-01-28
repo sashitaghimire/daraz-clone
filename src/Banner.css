@@ -1,0 +1,29 @@
+.banner{
+    display: flex;
+}
+
+.image__carousel{
+    display: flex;
+    flex: 0.8;
+    
+}
+.image__carousels >img{
+    height: 350px;
+    width: fit-content;
+    width: 100%;
+}
+
+.banner__category{
+    display: flex;
+    flex: 0.2;  
+}
+.MuiListItemText-root{
+    padding-left: 40px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    color: #A4A6A4;
+}
+.MuiListItemText-root:hover{
+    color:#1a9cb7;
+    background-color: #ECEFF1;
+}

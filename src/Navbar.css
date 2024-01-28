@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar >button{
+    outline: none;
+
+}
+.navbar>button:hover{
+    color:#F57224;
+}
+.navbar__category >button{
+    margin-left: -100px;
+}
+.navbar__category >button:hover{
+    color: #F57224;
+    
+}
